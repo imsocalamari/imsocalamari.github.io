@@ -73,6 +73,15 @@ h1 {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 0px 10%;
+    color: white;
+}
+
+.games {
+    height: 50vh;
+    display: flex;
+    align-items: center;
     padding: 0px 10%;
     color: white;
 }
