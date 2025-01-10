@@ -82,6 +82,42 @@ h1 {
     height: 50vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0px 10%;
     color: white;
+}
+
+div[class|="showcase"]{
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+div[class|="showcase"] hr{
+    width: 100%;
+    flex-basis: 100%;
+    height: 0; margin: 0; border: 0;
+}
+
+div[class$="right"].content-block { order: 1; }
+
+div[class$="left"].content-block { order: -1; }
+
+.content-block img{
+    max-width: 300px;
+    max-height: 200px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.container hr {
+    width: 100%;
+    flex-basis: 100%;
+    height: 0; margin: 0; border: 0;
 }
